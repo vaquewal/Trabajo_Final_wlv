@@ -1,0 +1,91 @@
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.banner {
+  position: relative; }
+  .banner img {
+    width: 100%; }
+  .banner .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%; }
+    .banner .title .row .img-container {
+      border-radius: 100%;
+      width: 250px;
+      height: 250px;
+      margin: 0 auto; }
+      .banner .title .row .img-container img {
+        width: 100%;
+        margin: auto 0;
+        border-radius: 100%; }
+
+.about_img img {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.team {
+  margin: 0;
+  padding: 3px 36px; }
+  .team img {
+    width: 100%; }
+  .team .social {
+    text-align: center; }
+    .team .social span {
+      font-size: 30px;
+      padding: 0 8px; }
+
+.portfolio .row img, .workteam {
+  padding: 0 !important; }
+
+.services, .portfolio_row, .about-us {
+  margin: 100px 0; }
+
+.workteam .fondo-team {
+  background: #94ECD0;
+  position: relative;
+  bottom: 20px;
+  padding-bottom: 20px; }
+  .workteam .fondo-team h3 {
+    padding-top: 20px; }
+  .workteam .fondo-team .p-team {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 18px; }
+
+.servicio {
+  border: 1px solid #7BC7B1; }
+  .servicio p {
+    margin: 25px 0;
+    line-height: 30px; }
+
+.grupo_servicios, .grupo_portfolio, .grupo_about {
+  margin-top: 50px; }
+
+.fila1, .fila2 {
+  margin: 0; }
+
+.contact-form {
+  margin-top: 100px; }
+  .contact-form .form {
+    margin-top: 50px; }
+  .contact-form input {
+    padding: 22px; }
+
+footer {
+  margin-top: 100px;
+  background: rgba(3, 169, 244, 0.08); }
+  footer .social-footer {
+    margin-top: 25px; }
+    footer .social-footer span {
+      font-size: 50px;
+      margin: 0 38px; }
+  footer hr {
+    margin-top: 15px;
+    width: 70%;
+    border: 1.5px solid rgba(0, 114, 255, 0.28); }
+  footer .derechos {
+    font-size: 10px; }
+
+/*# sourceMappingURL=style.css.map */
